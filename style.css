@@ -1,0 +1,23 @@
+.itk-slider {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.itk-slider .slide-img{
+  max-width: 80%;
+  max-width: 300px;
+}
+
+.itk-slider button {
+  cursor: pointer;
+  border: none;
+  margin: 1rem;
+  color: brown;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
