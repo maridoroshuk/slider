@@ -1,25 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="itk-slider" id="itk-slider1">
-      <button class="show-prev-btn"> < </button>
-      <img class="slide-img" src="" alt=""/>
-      <button class="show-next-btn"> > </button>
-    </div>
-        <div class="itk-slider" id="itk-slider2" >
-      <button class="show-prev-btn"> < </button>
-      <img class="slide-img"  src="" alt=""/>
-      <button class="show-next-btn"> > </button>
-    </div>
+<html lang="en">
 
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<title>Слайдер | Проект 3</title>
+</head>
 
-    <script src="slider.js"></script>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div style="background: #E2E8DD">
+				<h1>Still Life with Flowers and a Watch</h1>
+				<p>Abraham Mignon, c. 1660 - c. 1679</p>
+			</div>
+			<div style="background: #B7D1DA">
+				<h1>The Milkmaid</h1>
+				<p>Johannes Vermeer, c. 1660 </p>
+			</div>
+			<div style="background: #95A3A4;">
+				<h1>Interior with a Woman Feeding a Parrot, Known as ‘The Parrot Cage’</h1>
+				<p>Jan Havicksz. Steen, c. 1660 - c. 1670 </p>
+			</div>
+			<div style="background: #697268">
+				<h1>Banquet Still Life</h1>
+				<p>Adriaen van Utrecht, 1644 </p>
+			</div>
+		</div>
+		<div class="main-slide">
+			<div style="
+            background-image: url('https://lh3.googleusercontent.com/MVx1rFVunC-admqJm--CaApyWBQOvXp4l9kWx4hSC4H325nlGnX5UBMR5dZ7fLXe_iw6x4PfuJSfckKdBKF4NZPDRA2AmxIyWHIp6pyB=s500-c');
+          "></div>
+			<div style="
+            background-image: url('https://lh3.googleusercontent.com/cRtF3WdYfRQEraAcQz8dWDJOq3XsRX-h244rOw6zwkHtxy7NHjJOany7u4I2EG_uMAfNwBLHkFyLMENzpmfBTSYXIH_F=s1920');
+          "></div>
+			<div style="
+            background-image: url('https://lh3.googleusercontent.com/LRwYb2F0achYZbrvKsmrH-_NHOj-m-sFiD2RLQnK6CSPFEckJ3f8uC77b5Hil2ZxwtqUPftZyZpgGJjTGEOrftDHi5U=s500-c');
+          "></div>
+			<div style="
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/aa/Jan_Lievens_-_Still_Life_with_Books.jpg');
+          "></div>
+		</div>
+		<div class="controls">
+			<button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
